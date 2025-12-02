@@ -191,7 +191,7 @@ export default function MethodologySection() {
         >
           {/* Left: Example image with overlay */}
           <div className="relative">
-            <div className="relative aspect-[4/5] bg-neutral-100 overflow-hidden">
+            <div className="relative aspect-[3/4] sm:aspect-[4/5] bg-neutral-100 overflow-hidden">
               <Image
                 src={getImagePath(mantlepiece.asian.image_path)}
                 alt={mantlepiece.asian.title}
