@@ -431,7 +431,7 @@ export default function MethodologySection() {
                   We queried for portrait photographs where the subject appeared to be of Asian descent, 
                   yielding two study groups:
                 </p>
-                <div className="grid grid-cols-2 gap-4 text-sm">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
                   <div className="p-3 bg-white/5 border border-white/10">
                     <div className="text-amber-400 font-medium mb-1">Asian on Asian</div>
                     <div className="text-white/60 text-xs">
