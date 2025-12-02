@@ -77,21 +77,21 @@ function AgentCard({
             : "bg-white text-neutral-400 hover:bg-neutral-50"
       }`}
     >
-      <div className="p-4 border-b border-neutral-100">
-        <div className="flex items-center gap-3">
-          <div className={`w-2.5 h-2.5 rounded-full transition-colors ${
+      <div className="p-3 sm:p-4 border-b border-neutral-100">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <div className={`w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full transition-colors ${
             isActive ? "animate-pulse" : ""
           } ${isActive || isComplete ? agent.color : "bg-neutral-200"}`} />
           <div className="flex-1 min-w-0">
             <div className="flex items-center justify-between">
-              <span className="font-medium text-sm">{agent.name}</span>
+              <span className="font-medium text-xs sm:text-sm">{agent.name}</span>
               {isComplete && !isActive && (
                 <svg className="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
               )}
             </div>
-            <div className={`text-xs mt-0.5 transition-colors ${
+            <div className={`text-[10px] sm:text-xs mt-0.5 transition-colors ${
               isActive ? "text-white/60" : "text-neutral-400"
             }`}>
               {agent.role}
@@ -104,8 +104,8 @@ function AgentCard({
       <div className={`overflow-hidden transition-all duration-500 ${
         isActive ? "max-h-40" : "max-h-0"
       }`}>
-        <div className="p-4 pt-0">
-          <p className="text-sm text-white/80">{agent.analyzes}</p>
+        <div className="p-3 sm:p-4 pt-0">
+          <p className="text-xs sm:text-sm text-white/80">{agent.analyzes}</p>
         </div>
       </div>
     </button>
@@ -286,14 +286,14 @@ export default function MethodologySection() {
                   )}
 
                   {/* Bottom text overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent flex flex-col justify-end p-6">
-                    <div className="flex items-center gap-3 mb-3">
-                      <div className={`w-3 h-3 rounded-full ${activeAgent.color} animate-pulse`} />
-                      <span className="text-white/60 text-xs uppercase tracking-wider">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent flex flex-col justify-end p-4 sm:p-6">
+                    <div className="flex items-center gap-2 sm:gap-3 mb-2 sm:mb-3">
+                      <div className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full ${activeAgent.color} animate-pulse`} />
+                      <span className="text-white/60 text-[10px] sm:text-xs uppercase tracking-wider">
                         {activeAgent.name} analyzing...
                       </span>
                     </div>
-                    <p className="text-white font-serif text-lg italic leading-relaxed">
+                    <p className="text-white font-serif text-sm sm:text-lg italic leading-relaxed">
                       &ldquo;{activeAgent.question}&rdquo;
                     </p>
                   </div>
