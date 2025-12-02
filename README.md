@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Machine's Eye
 
-## Getting Started
+A VLM-curated virtual photography exhibition exploring how Eastern and Western photographers represent Asian subjects differently.
 
-First, run the development server:
+## 🎨 Features
+
+- **12 Curated Pairs**: Portrait-focused comparisons across 4 thematic sections
+- **VLM Lens**: Click any image to reveal camera setup analysis (angle, lighting, framing)
+- **Camera Setup Rhetoric**: Technical choices decoded as cultural rhetoric
+- **Animated Methodology**: Six-agent VLM analysis visualization
+- **MoMA Collection**: 154 images from MoMA's public photography archive
+
+## 🚀 Deploy on Render
+
+1. Push to GitHub
+2. Connect to Render
+3. Render will auto-detect `render.yaml` and deploy
+
+**Build Command**: `yarn install && yarn build`  
+**Start Command**: `yarn start`
+
+## 💻 Local Development
 
 ```bash
-npm run dev
-# or
+# Install dependencies
+yarn install
+
+# Run development server
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+yarn build
+
+# Start production server
+yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── app/              # Next.js app router
+├── components/       # React components
+│   ├── Hero.tsx             # Mantlepiece pairing
+│   ├── MethodologySection   # VLM agent visualization
+│   ├── PairedGallery.tsx    # Main gallery with VLM Lens
+│   └── CuratorialStatement  # Exhibition thesis
+├── data/
+│   ├── gallery.json         # 12 curated pairs
+│   └── vlm_corpus.json      # VLM intelligence (152 works)
+└── lib/
+    ├── gallery-data.ts      # Data utilities
+    └── vlm-intelligence.ts  # VLM analysis utilities
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+public/gallery/
+├── eastern/          # 77 Asian photographer images
+└── western/          # 77 Western photographer images
+```
 
-## Learn More
+## 📊 Data Sources
 
-To learn more about Next.js, take a look at the following resources:
+- **Images**: MoMA Photography Collection (public database)
+- **Analysis**: Lydia AI multi-pass VLM analysis
+- **Scores**: Humanization (1-5) and Othering (0-3) composite metrics
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Exhibition Thesis
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> *Eastern photographers documenting Asian subjects consistently score higher on humanization metrics and lower on othering metrics than Western photographers documenting the same populations.*
 
-## Deploy on Vercel
+The key finding: **naming matters**. Asian photographers name their subjects; Western photographers often type them.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with Next.js 16, Tailwind CSS 4, and shadcn/ui.

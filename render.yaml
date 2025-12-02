@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: moma-virtual-gallery
+    runtime: node
+    buildCommand: yarn install && yarn build
+    startCommand: yarn start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: NEXT_TELEMETRY_DISABLED
+        value: 1
+

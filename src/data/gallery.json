@@ -1,0 +1,298 @@
+{
+  "exhibition": {
+    "title": "The Machine's Eye",
+    "subtitle": "Both Shomei Tomatsu and Diane Arbus use an eye-level camera. Tomatsu's title names a person: Hibakusha Senji Yamaguchi, Nagasaki. Arbus's title describes a costume: Man in an Indian headdress, N.Y.C., 1969. How does a title change who we see?"
+  },
+  "mantlepiece": {
+    "asian": {
+      "object_id": 56197,
+      "title": "Hibakusha Senji Yamaguchi, Nagasaki",
+      "photographer": "Shomei Tomatsu",
+      "image_path": "/gallery/eastern/56197_Shomei_Tomatsu.jpg",
+      "humanization": 4.7,
+      "othering": 0.0
+    },
+    "western": {
+      "object_id": 89213,
+      "title": "Man in an Indian headdress, N.Y.C., 1969",
+      "photographer": "Diane Arbus",
+      "image_path": "/gallery/western/89213_Diane_Arbus.jpg",
+      "humanization": 1.3,
+      "othering": 3.0
+    }
+  },
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "The Politics of Names",
+      "thesis": "Who gets named? Asian photographers grant their subjects full names; Western photographers often reduce them to types.",
+      "intro_text": "Both photographers frame their subjects at eye level. The encounter is direct. But their titling strategies differ. One title gives a name. The other gives a type. What is the difference between being named and being described?",
+      "pairs": [
+        {
+          "id": "pair_1",
+          "wall_text": "Both photographers shoot at eye level—the camera neither looks up in reverence nor down in dominance. Yet Tomatsu's frame shows Senji Yamaguchi's keloid scars while his face turns away, granting him control over what we see. Arbus's title identifies her subject by a headdress, not a name. One image names a survivor. The other labels a costume.",
+          "left": {
+            "object_id": 56197,
+            "title": "Hibakusha Senji Yamaguchi, Nagasaki",
+            "photographer": "Shomei Tomatsu",
+            "image_path": "/gallery/eastern/56197_Shomei_Tomatsu.jpg",
+            "humanization": 4.7,
+            "othering": 0.0
+          },
+          "right": {
+            "object_id": 89213,
+            "title": "Man in an Indian headdress, N.Y.C., 1969",
+            "photographer": "Diane Arbus",
+            "image_path": "/gallery/western/89213_Diane_Arbus.jpg",
+            "humanization": 1.3,
+            "othering": 3.0
+          }
+        },
+        {
+          "id": "pair_2",
+          "wall_text": "Nagao captures a political assassination—the lunge, the sword, the shock on surrounding faces—and names the victim: Inejiro Asanuma. Lange photographs a man from below, heroically framed, yet her title reduces him to 'Hopi Indian.' One documents a named death. The other categorizes a living face.",
+          "left": {
+            "object_id": 58642,
+            "title": "Assassination of Japanese Socialist Leader Inejiro Asanuma",
+            "photographer": "Yasushi Nagao",
+            "image_path": "/gallery/eastern/58642_Yasushi_Nagao.jpg",
+            "humanization": 4.3,
+            "othering": 0.0
+          },
+          "right": {
+            "object_id": 56498,
+            "title": "Hopi Indian, New Mexico",
+            "photographer": "Dorothea Lange",
+            "image_path": "/gallery/western/56498_Dorothea_Lange.jpg",
+            "humanization": 1.3,
+            "othering": 2.0
+          }
+        },
+        {
+          "id": "pair_3",
+          "wall_text": "Chhachhi photographs activist Sathyarani in collective action and in composed portraits—naming her in both. Bubriski centers three pilgrims who look directly at us, yet his title counts them rather than names them. The camera's angle differs too: Chhachhi shoots heroically from below; Bubriski looks down from above.",
+          "left": {
+            "object_id": 452184,
+            "title": "Sathyarani - Anti Dowry Demonstration, Delhi",
+            "photographer": "Sheba Chhachhi",
+            "image_path": "/gallery/eastern/452184_Sheba_Chhachhi.jpg",
+            "humanization": 4.7,
+            "othering": 0.0
+          },
+          "right": {
+            "object_id": 50763,
+            "title": "Three Pilgrims at the Sangam, Kumbh Mela, Allahabad, India",
+            "photographer": "Kevin Bubriski",
+            "image_path": "/gallery/western/50763_Kevin_Bubriski.jpg",
+            "humanization": 2.3,
+            "othering": 2.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "section_2",
+      "title": "Same Angle, Different Distance",
+      "thesis": "Similar framing, divergent humanity. When technique converges, the title becomes the variable that separates naming from typing.",
+      "intro_text": "These pairs share formal strategies—eye-level shots, intimate framing, documentary intent. What differs is what the title tells us about who we're seeing.",
+      "pairs": [
+        {
+          "id": "pair_4",
+          "wall_text": "Tomatsu's stark lighting illuminates one side of Fukuda Sumako's face, drawing attention to her skin's texture while shadow claims the other half. Heath's tight framing on a soldier separates him from the wider conflict. Both photographers approach trauma intimately—but Tomatsu names a woman: Fukuda Sumako. Heath names a place: Korea.",
+          "left": {
+            "object_id": 56192,
+            "title": "Hibakusha Fukuda Sumako, Nagasaki",
+            "photographer": "Shomei Tomatsu",
+            "image_path": "/gallery/eastern/56192_Shomei_Tomatsu.jpg",
+            "humanization": 3.7,
+            "othering": 0.0
+          },
+          "right": {
+            "object_id": 47033,
+            "title": "Foxhole, Korea",
+            "photographer": "Dave Heath",
+            "image_path": "/gallery/western/47033_Dave_Heath.jpg",
+            "humanization": 3.3,
+            "othering": 0.0
+          }
+        },
+        {
+          "id": "pair_5",
+          "wall_text": "Chhachhi pairs a posed portrait with a second image revealing studio lights and assistants—showing us how Radha's image was made. Sander shoots at eye level with clinical precision, yet his title identifies one man as 'Manager,' the other simply as 'Indian.' One reveals the apparatus of representation. The other reproduces its hierarchies.",
+          "left": {
+            "object_id": 452185,
+            "title": "Radha - Staged Portrait, Anandlok, Delhi",
+            "photographer": "Sheba Chhachhi",
+            "image_path": "/gallery/eastern/452185_Sheba_Chhachhi.jpg",
+            "humanization": 4.7,
+            "othering": 0.0
+          },
+          "right": {
+            "object_id": 194124,
+            "title": "Indian with Manager",
+            "photographer": "August Sander",
+            "image_path": "/gallery/western/194124_August_Sander.jpg",
+            "humanization": 2.3,
+            "othering": 1.5
+          }
+        },
+        {
+          "id": "pair_6",
+          "wall_text": "Moriyama's tight framing pulls us close to the Underground Actress—high-contrast lighting focuses on expression and makeup, granting her presence. Trémaux presents his subject in strict profile, emphasizing physical features for measurement. One gives an occupation. The other gives an ethnicity. A century separates them; the gaze persists.",
+          "left": {
+            "object_id": 56580,
+            "title": "Underground Actress, Tokyo",
+            "photographer": "Daidō Moriyama",
+            "image_path": "/gallery/eastern/56580_Daidō_Moriyama_森山_大道.jpg",
+            "humanization": 4.3,
+            "othering": 0.0
+          },
+          "right": {
+            "object_id": 127498,
+            "title": "Young Nubian Woman",
+            "photographer": "Pierre Trémaux",
+            "image_path": "/gallery/western/127498_Pierre_Trémaux.jpg",
+            "humanization": 1.3,
+            "othering": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "section_3",
+      "title": "Who Looks Down?",
+      "thesis": "Camera angle encodes power. But even when both photographers look down, naming can restore what the angle takes away.",
+      "intro_text": "Height matters. A high angle can diminish; a low angle can elevate. But when the camera looks down, what does the title do?",
+      "pairs": [
+        {
+          "id": "pair_7",
+          "wall_text": "Rahman's high vantage reveals both the immense scale of mourners and individual faces within the crowd—all gathered for Safdar Hashmi, the murdered playwright named in his title. Cartier-Bresson photographs Delhi from above too, but his title gives only a city. One names the dead. The other maps the living.",
+          "left": {
+            "object_id": 275271,
+            "title": "Safdar Hashmi Funeral, Delhi",
+            "photographer": "Ram Rahman",
+            "image_path": "/gallery/eastern/275271_Ram_Rahman.jpg",
+            "humanization": 4.7,
+            "othering": 0.0
+          },
+          "right": {
+            "object_id": 110761,
+            "title": "Delhi",
+            "photographer": "Henri Cartier-Bresson",
+            "image_path": "/gallery/western/110761_Henri_Cartier-Bresso.jpg",
+            "humanization": 3.3,
+            "othering": 0.5
+          }
+        },
+        {
+          "id": "pair_8",
+          "wall_text": "Chhachhi presents Devikripa in three views: staged portrait, sit-in protest, widow in community. The name anchors all three. Johnston photographs from a heroic low angle—yet her title groups people by ethnicity: 'Indian.' One name travels across contexts. The other erases names across a frame.",
+          "left": {
+            "object_id": 452186,
+            "title": "Devikripa - Staged Portrait, Seemapuri, Delhi",
+            "photographer": "Sheba Chhachhi",
+            "image_path": "/gallery/eastern/452186_Sheba_Chhachhi.jpg",
+            "humanization": 4.7,
+            "othering": 0.0
+          },
+          "right": {
+            "object_id": 57063,
+            "title": "Farms and homes of Hampton students. Indian",
+            "photographer": "Frances Benjamin Johnston",
+            "image_path": "/gallery/western/57063_Frances_Benjamin_Joh.jpg",
+            "humanization": 2.7,
+            "othering": 1.5
+          }
+        },
+        {
+          "id": "pair_9",
+          "wall_text": "Moriyama looks down at a man on the street—his title says 'Crippled Beggar,' identifying condition and activity. Thomson's road leads the eye past the people walking on it; they become incidental to geography. Both reduce. But Moriyama's reduction is specific; Thomson's dissolves individuals into landscape.",
+          "left": {
+            "object_id": 56623,
+            "title": "Crippled Beggar, Tokyo",
+            "photographer": "Daidō Moriyama",
+            "image_path": "/gallery/eastern/56623_Daidō_Moriyama_森山_大道.jpg",
+            "humanization": 2.3,
+            "othering": 0.5
+          },
+          "right": {
+            "object_id": 92665,
+            "title": "A Country Road Near Taiwanfu",
+            "photographer": "John Thomson",
+            "image_path": "/gallery/western/92665_John_Thomson.jpg",
+            "humanization": 2.3,
+            "othering": 1.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "title": "Convergence?",
+      "thesis": "Contemporary photography narrows the gap—but traces of the old hierarchies persist in unexpected places.",
+      "intro_text": "Do naming practices converge over time? Or do different strategies of distance persist even when photographers share similar intentions?",
+      "pairs": [
+        {
+          "id": "pair_10",
+          "wall_text": "Chhachhi shows Shanti twice: formal portrait, then with her children—the name traveling between public and private. Ross photographs a man at the Vietnam Veterans Memorial, his reflection mingling with etched names of the dead. Her title says 'Untitled'—a deliberate withholding. Both approach grief. One names the living. One leaves the living unnamed among the named dead.",
+          "left": {
+            "object_id": 452187,
+            "title": "Shanti - Staged Portrait, Dakshinpuri, Delhi",
+            "photographer": "Sheba Chhachhi",
+            "image_path": "/gallery/eastern/452187_Sheba_Chhachhi.jpg",
+            "humanization": 4.7,
+            "othering": 0.0
+          },
+          "right": {
+            "object_id": 49952,
+            "title": "Untitled, from Portraits at the Vietnam Veterans Memorial",
+            "photographer": "Judith Joy Ross",
+            "image_path": "/gallery/western/49952_Judith_Joy_Ross.jpg",
+            "humanization": 3.3,
+            "othering": 0.0
+          }
+        },
+        {
+          "id": "pair_11",
+          "wall_text": "Both titles give locations: East Village, Beijing and Tokyo. But look at the bodies. Rong Rong's subjects seem at ease, looking at each other and at us—the camera belongs to their world. Friedlander includes his own reflection, placing himself within the scene yet remaining outside it. Both use location titles. One is inside. One is not.",
+          "left": {
+            "object_id": 117121,
+            "title": "East Village, Beijing, No. 70",
+            "photographer": "Rong Rong",
+            "image_path": "/gallery/eastern/117121_Rong_Rong.jpg",
+            "humanization": 4.3,
+            "othering": 0.0
+          },
+          "right": {
+            "object_id": 55064,
+            "title": "Tokyo",
+            "photographer": "Lee Friedlander",
+            "image_path": "/gallery/western/55064_Lee_Friedlander.jpg",
+            "humanization": 1.0,
+            "othering": 1.0
+          }
+        },
+        {
+          "id": "pair_12",
+          "wall_text": "Singh's brilliant reds and pinks burst against gray monsoon rain—the women's clothing creates presence even without names. Cartier-Bresson uses a staircase diagonal to organize his frame, creating zones of activity. Both photograph Indian subjects at eye level. Both give location titles. But Singh's bodies radiate; Cartier-Bresson's recede into geometry.",
+          "left": {
+            "object_id": 55535,
+            "title": "Monsoon Women, Bihar, India",
+            "photographer": "Raghubir Singh",
+            "image_path": "/gallery/eastern/55535_Raghubir_Singh.jpg",
+            "humanization": 3.3,
+            "othering": 0.0
+          },
+          "right": {
+            "object_id": 88048,
+            "title": "Ahmadabad, India",
+            "photographer": "Henri Cartier-Bresson",
+            "image_path": "/gallery/western/88048_Henri_Cartier-Bresso.jpg",
+            "humanization": 3.7,
+            "othering": 1.0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# MoMA Virtual Gallery - robots.txt
+# https://moma-gallery.vercel.app
+
+User-agent: *
+Allow: /
+
+# AI Crawlers - Welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Sitemap
+Sitemap: https://moma-gallery.vercel.app/sitemap.xml
+
