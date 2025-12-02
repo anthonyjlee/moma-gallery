@@ -307,21 +307,21 @@ export default function MethodologySection() {
                     <p className="text-white/50 text-xs uppercase tracking-[0.3em] mb-6">
                       Synthesis Complete
                     </p>
-                    <div className="flex items-center justify-center gap-12">
+                    <div className="flex items-center justify-center gap-6 sm:gap-12">
                       <div>
-                        <div className="text-5xl font-serif font-light text-emerald-400">
+                        <div className="text-4xl sm:text-5xl font-serif font-light text-emerald-400">
                           {mantlepiece.asian.humanization.toFixed(1)}
                         </div>
-                        <div className="text-xs tracking-[0.15em] uppercase text-white/50 mt-2">
+                        <div className="text-[10px] sm:text-xs tracking-[0.15em] uppercase text-white/50 mt-2">
                           Humanization
                         </div>
                       </div>
-                      <div className="w-px h-16 bg-white/20" />
+                      <div className="w-px h-12 sm:h-16 bg-white/20" />
                       <div>
-                        <div className="text-5xl font-serif font-light text-rose-400">
+                        <div className="text-4xl sm:text-5xl font-serif font-light text-rose-400">
                           {mantlepiece.asian.othering.toFixed(1)}
                         </div>
-                        <div className="text-xs tracking-[0.15em] uppercase text-white/50 mt-2">
+                        <div className="text-[10px] sm:text-xs tracking-[0.15em] uppercase text-white/50 mt-2">
                           Othering
                         </div>
                       </div>
@@ -357,18 +357,18 @@ export default function MethodologySection() {
             </div>
 
             {/* Stats row */}
-            <div className="mt-6 grid grid-cols-3 gap-3">
-              <div className="text-center p-4 bg-neutral-50">
-                <div className="text-2xl font-serif font-light">{methodology.total_images}</div>
-                <div className="text-[10px] text-neutral-500 uppercase tracking-wider mt-1">Images</div>
+            <div className="mt-6 grid grid-cols-3 gap-2 sm:gap-3">
+              <div className="text-center p-3 sm:p-4 bg-neutral-50">
+                <div className="text-xl sm:text-2xl font-serif font-light">{methodology.total_images}</div>
+                <div className="text-[9px] sm:text-[10px] text-neutral-500 uppercase tracking-wider mt-1">Images</div>
               </div>
-              <div className="text-center p-4 bg-neutral-50">
-                <div className="text-2xl font-serif font-light">{curatorAgents.length}</div>
-                <div className="text-[10px] text-neutral-500 uppercase tracking-wider mt-1">Agents</div>
+              <div className="text-center p-3 sm:p-4 bg-neutral-50">
+                <div className="text-xl sm:text-2xl font-serif font-light">{curatorAgents.length}</div>
+                <div className="text-[9px] sm:text-[10px] text-neutral-500 uppercase tracking-wider mt-1">Agents</div>
               </div>
-              <div className="text-center p-4 bg-neutral-50">
-                <div className="text-2xl font-serif font-light">2</div>
-                <div className="text-[10px] text-neutral-500 uppercase tracking-wider mt-1">Scores</div>
+              <div className="text-center p-3 sm:p-4 bg-neutral-50">
+                <div className="text-xl sm:text-2xl font-serif font-light">2</div>
+                <div className="text-[9px] sm:text-[10px] text-neutral-500 uppercase tracking-wider mt-1">Scores</div>
               </div>
             </div>
 
@@ -418,13 +418,13 @@ export default function MethodologySection() {
 
           {/* Collection Source */}
           <div className="mt-8 p-6 bg-black text-white">
-            <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
+            <div className="flex flex-col sm:flex-row items-start gap-4">
+              <div className="hidden sm:flex flex-shrink-0 w-10 h-10 rounded-full bg-white/10 items-center justify-center">
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                 </svg>
               </div>
-              <div className="flex-1">
+              <div className="flex-1 w-full">
                 <h3 className="font-medium mb-2">Collection Source: MoMA Photography Archive</h3>
                 <p className="text-sm text-white/70 leading-relaxed mb-4">
                   All photographs are drawn from The Museum of Modern Art&apos;s public collection database. 
