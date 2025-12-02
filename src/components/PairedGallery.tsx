@@ -298,7 +298,7 @@ function PairCard({ pair, pairIndex }: { pair: Pair; pairIndex: number }) {
               {leftVLM.cameraSetup && (
                 <div className="p-4 bg-neutral-900 text-white">
                   <div className="text-[10px] text-amber-400 uppercase tracking-wider mb-3">Camera Setup</div>
-                  <div className="grid grid-cols-3 gap-4 text-xs">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
                     <div>
                       <div className="text-white/50 uppercase tracking-wider text-[9px] mb-1">Angle</div>
                       <div className={`font-medium ${leftVLM.cameraSetup.angle.isHumanizing ? 'text-emerald-400' : 'text-rose-400'}`}>
@@ -421,7 +421,7 @@ function PairCard({ pair, pairIndex }: { pair: Pair; pairIndex: number }) {
               {rightVLM.cameraSetup && (
                 <div className="p-4 bg-neutral-900 text-white">
                   <div className="text-[10px] text-blue-400 uppercase tracking-wider mb-3">Camera Setup</div>
-                  <div className="grid grid-cols-3 gap-4 text-xs">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
                     <div>
                       <div className="text-white/50 uppercase tracking-wider text-[9px] mb-1">Angle</div>
                       <div className={`font-medium ${rightVLM.cameraSetup.angle.isHumanizing ? 'text-emerald-400' : 'text-rose-400'}`}>

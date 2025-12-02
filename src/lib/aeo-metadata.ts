@@ -255,3 +255,4 @@ export function generateKeywords(params: {
   return [...new Set([...baseKeywords, ...nationality, ...themes])];
 }
 
+
