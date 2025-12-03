@@ -1,31 +1,46 @@
 # The Machine's Eye
 
-A VLM-curated virtual photography exhibition exploring how Eastern and Western photographers represent Asian subjects differently.
+A virtual photography exhibition that uses vision-language models to analyze how Eastern and Western photographers represent Asian subjects differently. Built with MoMA's public photography collection.
 
-## 🎨 Features
+**Live Demo:** [moma-virtual-gallery.onrender.com](https://moma-virtual-gallery.onrender.com)
 
-- **12 Curated Pairs**: Portrait-focused comparisons across 4 thematic sections
-- **VLM Lens**: Click any image to reveal camera setup analysis (angle, lighting, framing)
-- **Camera Setup Rhetoric**: Technical choices decoded as cultural rhetoric
-- **Animated Methodology**: Six-agent VLM analysis visualization
-- **MoMA Collection**: 154 images from MoMA's public photography archive
+## Overview
 
-## 🚀 Deploy on Render
+This project explores a simple question: *How does a photographer's cultural background shape the way they represent their subjects?*
 
-1. Push to GitHub
-2. Connect to Render
-3. Render will auto-detect `render.yaml` and deploy
+Using 152 photographs from MoMA's collection, we compare how Asian photographers document Asian subjects versus how Western photographers document the same populations. The analysis reveals consistent patterns in naming conventions, camera positioning, and visual treatment.
 
-**Build Command**: `yarn install && yarn build`  
-**Start Command**: `yarn start`
+## Key Finding
 
-## 💻 Local Development
+> Asian photographers documenting Asian subjects consistently score higher on humanization metrics and lower on othering metrics than Western photographers documenting the same populations.
+
+The pattern is clearest in **naming**: Asian photographers name their subjects as individuals; Western photographers often reduce them to types ("Hopi Indian," "Man in headdress").
+
+## Features
+
+- **12 Curated Pairings** — Portrait comparisons across 4 thematic sections
+- **VLM Lens** — Click any image to reveal camera setup analysis (angle, lighting, framing)
+- **Animated Methodology** — Six-agent VLM analysis visualization
+- **Humanization & Othering Scores** — Composite metrics derived from multi-pass VLM analysis
+
+## Tech Stack
+
+- Next.js 16 (App Router)
+- Tailwind CSS 4
+- TypeScript
+- shadcn/ui components
+
+## Local Development
 
 ```bash
+# Clone the repository
+git clone https://github.com/anthonyjlee/moma-gallery.git
+cd moma-gallery
+
 # Install dependencies
 yarn install
 
-# Run development server
+# Start development server
 yarn dev
 
 # Build for production
@@ -35,40 +50,54 @@ yarn build
 yarn start
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
-├── app/              # Next.js app router
-├── components/       # React components
-│   ├── Hero.tsx             # Mantlepiece pairing
-│   ├── MethodologySection   # VLM agent visualization
-│   ├── PairedGallery.tsx    # Main gallery with VLM Lens
-│   └── CuratorialStatement  # Exhibition thesis
+├── app/                    # Next.js app router
+├── components/
+│   ├── Hero.tsx            # Opening comparison
+│   ├── MethodologySection  # VLM agent visualization
+│   ├── PairedGallery.tsx   # Main gallery with VLM Lens
+│   └── CuratorialStatement # Exhibition thesis
 ├── data/
-│   ├── gallery.json         # 12 curated pairs
-│   └── vlm_corpus.json      # VLM intelligence (152 works)
+│   ├── gallery.json        # 12 curated pairs
+│   └── vlm_corpus.json     # VLM analysis for 152 works
 └── lib/
-    ├── gallery-data.ts      # Data utilities
-    └── vlm-intelligence.ts  # VLM analysis utilities
+    ├── gallery-data.ts     # Data utilities
+    └── vlm-intelligence.ts # VLM analysis utilities
 
 public/gallery/
-├── eastern/          # 77 Asian photographer images
-└── western/          # 77 Western photographer images
+├── eastern/                # Asian photographer images
+└── western/                # Western photographer images
 ```
 
-## 📊 Data Sources
+## Data Sources
 
 - **Images**: MoMA Photography Collection (public database)
-- **Analysis**: Lydia AI multi-pass VLM analysis
-- **Scores**: Humanization (1-5) and Othering (0-3) composite metrics
+- **Analysis**: Multi-pass VLM analysis using vision-language models
+- **Metrics**: Humanization (1-5) and Othering (0-3) composite scores
 
-## 🎯 Exhibition Thesis
+## Deployment
 
-> *Eastern photographers documenting Asian subjects consistently score higher on humanization metrics and lower on othering metrics than Western photographers documenting the same populations.*
+The project includes a `render.yaml` for one-click deployment to Render:
 
-The key finding: **naming matters**. Asian photographers name their subjects; Western photographers often type them.
+1. Fork or push to your GitHub repository
+2. Connect to Render
+3. Render auto-detects the configuration and deploys
 
----
+**Build Command:** `yarn install && yarn build`  
+**Start Command:** `yarn start`
 
-Built with Next.js 16, Tailwind CSS 4, and shadcn/ui.
+## Contributing
+
+Contributions are welcome. Please open an issue first to discuss what you'd like to change.
+
+## License
+
+MIT
+
+## Acknowledgments
+
+- The Museum of Modern Art for their public collection database
+- All photographers whose work appears in this exhibition
